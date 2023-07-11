@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STIGMA</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+    
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="menu container">
+            <a href="#" class="logo">STIGMA</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="img/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="img/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <tr>Productos seleccionados en el carrito</tr>
+                                        <tr></tr>
+                                        <tr></tr>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Comprar</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-img">
+                <img src="img/right.png" alt="">
+        </div>
+        <div class="header-txt">
+            <h1>Ofertas especiales</h1>
+            <p>estrena las mejores prendas y accesorios</p>
+            <a href="#" class="btn-1"></a>
+        </div>
+    </header>
+
+    <section class="ofert container">
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="img/f1.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Ropa</h3>
+                <a href="#" class="btn-1"> Explora nuestra extensa colección de prendas cuidadosamente seleccionadas.</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="img/f2.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Accesorios</h3>
+                <a href="#" class="btn-1">Descubre nuestra amplia variedad de accesorios en nuestra página web.</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="img/f3.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Bolsos</h3>
+                <a href="#" class="btn-1">Explora nuestra exclusiva selección de bolsos en nuestra página web.</a>
+            </div>
+        </div>
+    </section>
+
+    <main class="products container" id="lista-1">
+
+        <h2>Productos</h2>
+
+        <div class="product-content">
+
+            <div class="product">
+                <img src="img/1.png" alt="">
+                <div class="product-txt">
+                    <h3>Top corto con estampado grafico vintage</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$25</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/2.png" alt="">
+                <div class="product-txt">
+                    <h3>Pantalon de cuero sintetico</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$150</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/3.png" alt="">
+                <div class="product-txt">
+                    <h3>Chaqueta universitaria delgada</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$100</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/4.png" alt="">
+                <div class="product-txt">
+                    <h3>Pantalon cargo</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$132</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/5.png" alt="">
+                <div class="product-txt">
+                    <h3>Top corto con lazo</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$30</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/6.png" alt="">
+                <div class="product-txt">
+                    <h3>Houzhou Techwear</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$104</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/7.png" alt="">
+                <div class="product-txt">
+                    <h3>Gorra octogonal</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$44</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/8.png" alt="">
+                <div class="product-txt">
+                    <h3>Guantes de cuero </h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$44</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/9.png" alt="">
+                <div class="product-txt">
+                    <h3>Collar de mariposa</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$16</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/10.png" alt="">
+                <div class="product-txt">
+                    <h3>Diadema de rana verde</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$10</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/11.png" alt="">
+                <div class="product-txt">
+                    <h3>Aretes luna y estrella</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$5</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/12.png" alt="">
+                <div class="product-txt">
+                    <h3>Juego de dos anillos</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$12</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/13.png" alt="">
+                <div class="product-txt">
+                    <h3>Bolso gotico</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$23</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/14.png" alt="">
+                <div class="product-txt">
+                    <h3>Bolso escolar</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$136</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/15.png" alt="">
+                <div class="product-txt">
+                    <h3>Bolso de felpa</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$140</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/16.png" alt="">
+                <div class="product-txt">
+                    <h3>Bolso de hombro negro</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$168</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/17.png" alt="">
+                <div class="product-txt">
+                    <h3>Bolso de lona</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$20</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/18.png" alt="">
+                <div class="product-txt">
+                    <h3>Bolso de mano</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$154</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </main>
+    
+
+
+    <section class="icons container">
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="img/i1.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Amplia selección de estilos</h3>
+                <p>
+                   
+                </p>
+            </div>
+        </div>
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="img/i2.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Calidad excepcional</h3>
+                <p>
+ 
+                </p>
+            </div>
+        </div>
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="img/i3.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Últimas tendencias de moda</h3>
+                <p>
+                 
+                </p>
+            </div>
+        </div>
+    </section>
+
+   
+    <footer class="footer">
+
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>Stigma</h3>
+                <ul>
+                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="#">Asociados</a></li>
+                    <li><a href="#">Programa de afiliación</a></li>
+                    <li><a href="#">Nuevo fondo</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Ayuda</h3>
+                <ul>
+                    <li><a href="#">Centro de Ayuda</a></li>
+                    <li><a href="#">Contactenos</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Idioma</h3>
+                <ul>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Portugues</a></li>
+                    <li><a href="#">Español</a></li>
+                    <li><a href="#">Indonesian</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Ley</h3>
+                <ul>
+                    <li><a href="#">Términos de servicio</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Política de Cookies</a></li>
+                    <li><a href="#">Términos de licencia</a></li>
+                    <li><a href="#">Derechos de propiedad intelectual</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+
+    </footer>
+
+
+
+
+    
+
+    <script src="scrip.js"></script>
+</body>
+</html>
